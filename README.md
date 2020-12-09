@@ -1,10 +1,10 @@
 # LSB Steganography
 
 This Project Describes the use of LSB Steganography.<br>
-<p style="color:gray"> Do check the python script written to implement lsb steganography</p>
-<p>#./stego -f <filename.png> -e "secret_message" -p <Password (Optional)>" -> To embed a secret message. <b>
-#./stego -f <secretfile.png> -x -p <Password supplied> -> To extract the secret message.<br>
-#Note : Even if you passed a blank field in the -p argument,while creating a secret file, you must append a -p while extracting the message. </P
+Do check the python script written to implement lsb steganography<br>
+<p style="color: grey" >#./stego -f &lt;filename.png&gt; -e &lt;secret_message&gt; -p &lt;Password (Optional) &gt;" : To embed a secret message. <br>
+#./stego -f &lt; secretfile.png &gt; -x -p &lt; Password supplied &gt; : To extract the secret message.<br>
+#Note : Even if you passed a blank field in the -p argument,while creating a secret file, you must append a -p while extracting the message. </P>
 
 STEGANOGRAPHY  comes  from  the  Greek  Words:  STEGANOS  –  “Covered”,  GRAPHIE  –  “Writing”.
 The sender hides his/her message within an image/audio/video.Since the algorithm uses the lease significant bit to hide the secret message the change is undectable by a naked eye.<br>
